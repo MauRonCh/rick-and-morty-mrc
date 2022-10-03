@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="./src/assets/ramBanner.jpg" alt="a" className='banner'/>
+      <img src="../src/assets/ramBanner.jpg" alt="a" className='banner'/>
       <header className="header__info">
         <h1 className='title__general'>Rick and Morty</h1>
         <p>Welcome to the Rick and Morty wiki! Here you can find information of every character of the series.</p>
