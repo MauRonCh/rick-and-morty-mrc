@@ -40,7 +40,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSearchInput(e.target.idLocation.value);
-    console.log(e.target)
     setSuggestedList()
   }
 
@@ -61,7 +60,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/src/assets/ramBanner.jpg" alt="Failed to load image" className='banner'/>
+      <img src="https://static.posters.cz/image/hp/66133.jpg" alt="Failed to load image" className='banner'/>
       <header className="header__info">
         <h1 className='title__general'>Rick and Morty</h1>
         <p>Welcome to the Rick and Morty wiki! Here you can find information of every character of the series.</p>
