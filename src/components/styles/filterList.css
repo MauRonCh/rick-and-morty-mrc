@@ -1,0 +1,24 @@
+.list__suggest {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / -1;
+}
+.filter__item {
+    position: relative;
+    background-color: aliceblue;
+    color: black;
+    z-index: 2;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+.filter__item:hover {
+    position: relative;
+    background-color: var(--background-principal);
+    border: 1px solid whitesmoke;
+    color: white;
+    transform: scale(1.2);
+    transition: ease 0.1s;
+    z-index: 3;
+}

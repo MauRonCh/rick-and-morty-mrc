@@ -1,0 +1,51 @@
+.App {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    background-size: contain;
+}
+
+.title {
+    display: initial;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 100%;
+    padding: 3% 25%;
+}
+
+.header__info {
+    text-align: center;
+    font-size: 18px;
+}
+.title__select {
+    width: 10px;
+}
+.title__general {
+    text-align: center;
+    padding: 20px;
+}
+.form {
+    display: grid;
+    grid-template-columns: 310px 80px;
+    justify-content: center;
+}
+.form__input {
+    outline: none;
+    font-size: 22px;
+    left: 50%;
+}
